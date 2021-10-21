@@ -9,7 +9,7 @@ docker build -t rserve Rserve/ --no-cache
 
 docker run --name EnvR -p 6311:6311 --rm rserve:latest
 
-** Once the docker is deployed, then type the following command to get the IP and other network details of the image:**
+**Once the docker is deployed, then type the following command to get the IP and other network details of the image:**
 
 docker network inspect bridge
 
